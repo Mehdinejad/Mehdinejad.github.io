@@ -17,12 +17,32 @@
     header {
       background-color: #1e293b;
       color: #fff;
-      padding: 3rem 2rem;
+      padding: 3rem 2rem 2rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .top-btn {
+      margin-top: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.8rem;
+      background-color: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #1e40af;
     }
     main {
       max-width: 850px;
@@ -36,20 +56,6 @@
     p {
       text-align: justify;
       margin-bottom: 1.8rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.8rem 1.8rem;
-      background-color: #2563eb;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #1e40af;
     }
     footer {
       background-color: #1e293b;
@@ -76,6 +82,9 @@
   <header>
     <h1>راهنمای خط فرمان لینوکس</h1>
     <p>ترجمهٔ فارسی کتاب «Linux Command Line» اثر ویلیام شاتز</p>
+    <div class="top-btn">
+      <a href="linux-command-line-fa.pdf" class="btn">📘 دریافت نسخهٔ کامل PDF</a>
+    </div>
   </header>
 
   <main>
@@ -107,8 +116,6 @@
       <p>
         متن ترجمه با رعایت دقت فنی و زبانی انجام شده و تلاش شده است تا ضمن حفظ مفاهیم اصلی، لحن نوشتار روان، رسمی و آموزشی باقی بماند. مطالعهٔ این کتاب به علاقه‌مندان کمک می‌کند تا دیدی دقیق‌تر نسبت به ساختار و ابزارهای لینوکس پیدا کنند و با شیوهٔ صحیح تعامل با خط فرمان آشنا شوند.
       </p>
-
-      <a href="linux-command-line-fa.pdf" class="btn">📘 دریافت نسخهٔ کامل PDF</a>
     </section>
   </main>
 
